@@ -244,7 +244,9 @@ body {
     }
 
     .contactContainer {
-      
+      width: 60%;
+      float: left;
+      margin-left: 40px;
     }
 
 
@@ -269,6 +271,13 @@ body {
       width: 55%;
       margin: auto;
       float: none;
+    }
+
+    .contactContainer {
+      width: 93%;
+      margin: auto;
+      margin-left: 20px;
+      
     }
 
   }

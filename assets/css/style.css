@@ -218,7 +218,7 @@ body {
   
 
   @media all and (max-width: 980px) {
-    #main-container {
+    .indexContainer {
       display: inline-block;
       width: 60%;
       margin-left: 40px;
@@ -237,6 +237,16 @@ body {
       padding-left: 0px;
     }
 
+    .portContainer {
+      width: 80%;
+      float: left;
+      margin-left: 40px;
+    }
+
+    .contactContainer {
+      
+    }
+
 
   }
 
@@ -249,11 +259,18 @@ body {
       margin-right: 20px;
     }
 
-    #main-container {
+    .indexContainer {
       width: 95%;
       margin: auto;
       display: flex;
     }
+
+    .portContainer {
+      width: 55%;
+      margin: auto;
+      float: none;
+    }
+
   }
 
   @media all and (max-width: 640px) {
